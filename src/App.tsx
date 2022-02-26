@@ -1,9 +1,11 @@
+import { RepositoryList } from './components/RepositoryList'
+
 import './styles/global.scss'
 
 function App() {
   return (
-    <div>
-      <p>olá</p>
+    <div className="App">
+      <RepositoryList />
     </div>
   )
 }
